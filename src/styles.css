@@ -1,0 +1,70 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-duration: 1s;
+    animation-name: slide-in;
+}
+
+h3 {
+    animation-duration: 1.5s;
+    animation-name: slide-in;  
+}
+
+p {
+    animation-duration: 2s;
+    animation-name: slide-in;
+}
+
+h4 {
+    animation-duration: 2.5s;
+    animation-name: slide-in;
+}
+
+a {
+    color: #0d1b2a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: e0e1dd;
+}
+
+@keyframes slide-in {
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #0d1b2a;
+    background-color: #778da9;
+    border-bottom: 20px solid #415a77;
+    border-radius: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
